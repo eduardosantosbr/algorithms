@@ -14,7 +14,6 @@ def multiplication(x, y):
         y1 = y//(BASE**m)
         y0 = y % (BASE**m)
         
-        
         x1y1 = multiplication(x1, y1)
         x1y0 = multiplication(x1, y0)
         x0y1 = multiplication(x0, y1)
